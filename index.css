@@ -30,7 +30,7 @@
   height: 100%;
   /* opacity: 0.6; */
   color: rgba(0, 0, 0, 0.7);
-  background-image: url("melon.png");
+  background-image: url("images/melon.png");
   background-repeat: no-repeat;
   text-align: right;
   padding: 4rem;
@@ -57,8 +57,11 @@ h2 {
   text-align: center;
   padding: 10px 30px 10px 30px;
 }
-h2,h4,h5,p, a{
+h4,h5,p, a, ol, li{
   font-family: 'Klee One';
+  line-height: 30px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 h3{
   font-family: 'Klee One';
@@ -108,7 +111,7 @@ img:hover {
   transition: 1s ease;
 }
 .navbar {
-  background-image: url("melon.png");
+  background-image: url("images/melon.png");
 }
 .nav-img {
   width: 100%;
@@ -189,6 +192,6 @@ button {
   transform: rotate(360deg);
 }
 #footer {
-  background-image: url("melon.png");
+  background-image: url("images/melon.png");
   height: 200px;
 }
