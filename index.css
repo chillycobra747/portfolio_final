@@ -28,10 +28,7 @@
 
 .App-header {
   height: 100%;
-  /* opacity: 0.6; */
   color: rgba(0, 0, 0, 0.7);
-  background-image: url("images/melon.png");
-  background-repeat: no-repeat;
   text-align: right;
   padding: 4rem;
   background-size:50%;
@@ -39,6 +36,16 @@
 
 #headerText {
   justify-content: right;
+  background-image: url("images/melon.png");
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin-bottom: 0;
+}
+#name {
+  justify-content: right;
+  display: flex;
+  background-image: url("images/melon.png");
+  background-repeat: no-repeat;
 }
 h1 {
   font-family: 'Dancing Script';
